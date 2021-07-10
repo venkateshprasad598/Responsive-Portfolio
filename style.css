@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;;
+}
+
+header{
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: purple;
+  display: flex;
+  justify-content: space-between;
+  /* margin: 15px 200px; */
+  padding: 15px 200px;
+  align-items: center;
+}
+
+header .brand{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.8em;
+  font-weight: 700;
+}
+
+header .navigation{
+  position: relative;
+}
+
+header .navigation a{
+  color: white;
+  font-size: 1.1em;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 15px;
+}
+
+header .navigation a:hover{
+  color: rgb(255, 155, 232);
+}
+
+
+/* header.sticky{
+  background: white;
+  padding: 10px 200px;
+} */
+
+section{
+  padding: 100px 200px;
+}
+
+.home{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.952), rgba(252, 193, 252, 0.863));
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.home .content{
+ max-width: 800px; 
+}
+
+.home .content h3{
+  color: black;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.home .content h1{
+  color: black;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.btn{
+  /* width: 105px; */
+  color: white;
+  background-color: purple;
+  font-size: 1em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: 0.5s ease;
+}
+
+.btn:hover{
+  background: rgb(230, 16, 176);
+  color: white;
+}
+
+.media-icons{
+  margin-top: 10px;
+}
+.media-icons a{
+  color: purple;
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.media-icons a:hover{
+  color: rgb(230, 16, 176);
+}
+
+body{
+  min-height: 110vh;
+}
+
+.title{
+  width: 100%;
+  display:flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.section-title{
+  position: relative;
+  color: purple;
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 60px;
+}
+
+.section-title:before{
+  content: '';
+  position: absolute;
+  top: 56px;
+  left: 50%;
+  width: 140px;
+  height: 4px;
+  background: purple;
+  transform: translateX(-50%);
+}
+
+.section-title:after{
+content: '';
+position: absolute;
+top: 50px;
+left: 50%;
+width: 15px;
+height: 15px;
+border-radius: 50%;
+background: purple;
+transform: translateX(-50%);
+}
+
+.about .content{
+  position: relative;
+  width: 100%;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.about .content .col-left{
+  position: relative;
+  width: 45%;
+}
+
+.about .content .col-right{
+  position: relative;
+  width: 45%;
+}
+
+.about .content .col-left .img-card{
+  position: relative;
+  width: 100%;
+  min-height: 450px;
+}
+
+.about .content .col-left .img-card img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.about .content .col-right .content-title{
+  font-size: 2em;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.about .content .col-right .content-title .paragraph-text{
+  font-size: 1.3em;
+}
+
+.skills{
+  background: purple;
+}
+
+.skills .content{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-top: 20px;
+}
+
+
+.section-title-two{
+  position: relative;
+  color: white;
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 60px;
+}
+
+.section-title-two:before{
+  content: '';
+  position: absolute;
+  top: 56px;
+  left: 50%;
+  width: 140px;
+  height: 4px;
+  background: white;
+  transform: translateX(-50%);
+}
+
+.section-title-two:after{
+content: '';
+position: absolute;
+top: 50px;
+left: 50%;
+width: 15px;
+height: 15px;
+border-radius: 50%;
+background: white;
+transform: translateX(-50%);
+}
+
+.skills .content .col-left{
+  position: relative;
+  width: 45%;
+}
+
+.skills .content .col-left .content-title{
+  margin-bottom: 20px;
+}
+
+.skills .content .col-left .content-title-two{
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.skills .content .col-right{
+  position: relative;
+  width: 45%;
+}
+
