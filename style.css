@@ -62,7 +62,7 @@ section{
   width: 100%;
   min-height: 100vh;
   display: flex;
-  background: url(/images/Whitebg-2.jpg);
+  background: url(images/Whitebg-2.jpg);
   /* flex-direction: column; */
   align-items: center;
   /* background: linear-gradient(to bottom, rgba(255, 255, 255, 0.952), rgba(252, 193, 252, 0.863)); */
