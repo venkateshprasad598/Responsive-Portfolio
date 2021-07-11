@@ -472,7 +472,14 @@ border-radius: 10px;
   transition: transform 0.5s ease;
 }
 
-.contact .content .row .card:hover .contact-icon{
+.contact .content .row .card:hover .contact-icon-one{
+  transform: translateY(-10px);
+}
+
+.contact .content .row .card:hover .contact-icon-two{
+  transform: translateY(-10px);
+}
+.contact .content .row .card:hover .contact-icon-three{
   transform: translateY(-10px);
 }
 
