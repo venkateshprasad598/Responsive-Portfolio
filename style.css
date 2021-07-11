@@ -62,9 +62,10 @@ section{
   width: 100%;
   min-height: 100vh;
   display: flex;
+  background: url(/images/Whitebg-2.jpg);
   /* flex-direction: column; */
   align-items: center;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.952), rgba(252, 193, 252, 0.863));
+  /* background: linear-gradient(to bottom, rgba(255, 255, 255, 0.952), rgba(252, 193, 252, 0.863)); */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -258,6 +259,10 @@ transform: translateX(-50%);
   width: 45%;
 }
 
+.skills .content .col-left a{
+  color: white;
+}
+
 .skills .content .col-left .content-title{
   margin-bottom: 20px;
 }
@@ -273,3 +278,313 @@ transform: translateX(-50%);
   width: 45%;
 }
 
+.skills .content .col-right .bar .info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.skills .content .col-right .bar .info span{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.skills .content .col-right .bar .line{
+  position: relative;
+  width: 100%;
+  height: 15px;
+  background: white;
+  border-radius: 3px;
+}
+
+.skills .content .col-right .bar .line:before{
+content: '';
+position: absolute;
+height: 100%;
+top: 0;
+left: 0;
+border-radius: 3px ;
+}
+
+.skills .content .col-right .bar .html:before{
+  width: 90%;
+  background: rgb(252, 77, 77);
+}
+
+.skills .content .col-right .bar .css:before{
+  width: 85%;
+  background: rgb(80, 80, 250);
+}
+
+.skills .content .col-right .bar .javascript:before{
+  width: 80%;
+  background: rgb(253, 253, 76);
+}
+
+.skills .content .col-right .bar .git:before{
+  width: 85%;
+  background: rgb(247, 46, 46);
+}
+
+.skills .content .col-right .bar .bootstrap:before{
+  width: 80%;
+  background: rgb(201, 151, 172);
+}
+
+.services .content{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.title p{
+  font-size: 1.1em;
+  width: 80%;
+}
+
+
+.services .content .card{
+  color: white;
+  /* background: linear-gradient(to bottom, purple,blue); */
+  background: purple;
+  width: 340px;
+ margin: 100px;
+padding: 25px;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border-radius: 10px;
+}
+
+.services .content .card .service-icon{
+  color: white;
+  font-size: 8em;
+  text-align: center;
+  transition: transform 0.5s ease;
+}
+
+.services .content .card:hover .service-icon{
+  transform: translateY(-15px);
+}
+
+.services .content .card .info{
+  text-align: center;
+}
+
+.services .content .card .info h3{
+  color: white;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.projects{
+  background: purple;
+  
+}
+
+.projects .content{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.projects .content .card{
+width: 340px;
+margin: 15px;
+}
+
+.projects .content .card .card-img{ 
+position: relative;
+width: 100%;
+height: 260px;
+overflow: hidden;
+border-radius: 10px;
+}
+
+.projects .content .card .card-img img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.5 ease;
+} 
+
+.projects .content .card .card-img img:hover{
+  transform: scale(1.07);
+}
+
+.contact .content{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.contact .content .row{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.contact .content .row .card{
+  background: white;
+  width: 340px;
+  margin: 20px;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow:  0px 15px 25px  rgb(216, 208, 208);
+  border-radius: 10px;
+}
+
+.contact .content .row .card .contact-icon-one{
+  color: rgb(253, 202, 33);
+  font-size: 4em;
+  text-align: center;
+  transition: transform 0.5s ease;
+}
+
+.contact .content .row .card .contact-icon-two{
+  color: rgb(58, 58, 248);
+  font-size: 4em;
+  text-align: center;
+  transition: transform 0.5s ease;
+}
+
+.contact .content .row .card .contact-icon-three{
+  color: rgb(250, 41, 41);
+  font-size: 4em;
+  text-align: center;
+  transition: transform 0.5s ease;
+}
+
+.contact .content .row .card:hover .contact-icon{
+  transform: translateY(-10px);
+}
+
+.contact .content .row .card .info{
+  text-align: center;
+}
+
+.contact .content .row .card .info h3{
+  color: black;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.contact .content .row .card .info span{
+  color: black;
+  font-weight: 500;
+}
+
+.contact-form{
+  background: white;
+  width: 500px;
+  margin-top: 50px;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 5px 25px rgb(219, 213, 213);
+}
+
+.contact-form h3{
+  color: black;
+  font-size: 1.6em;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-form .input-box{
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.contact-form .input-box input, 
+.contact-form .input-box textarea{
+  color: black;
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  font-weight: 400;
+  outline: none;
+  border: 1px solid rgb(51, 51, 51);
+  border-radius: 5px;
+  resize: none;
+}
+
+.contact-form .input-box .send-btn{
+  color: white;
+  background: purple;
+  display: inline-block;
+  font-size: 1.1em;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.contact-form .input-box .send-btn:hover{
+  background: linear-gradient(to left, purple, blue);
+}
+
+.footer{
+  background: purple;
+  color: white;
+  text-align: center;
+  padding: 2em;
+}
+
+/* .footer:hover{
+  background: linear-gradient(to left, purple, blue);
+} */
+
+.footer .footer-tile{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footer p{
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* .projects.content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.projects .content .card{
+  width: 340px;
+  margin: 15px */
+}
+
+/* .projects .content .card .card-img{
+  position: relative;
+  width: 100%;
+  height: 26opx;
+  overflow: hidden;
+  border-radius: 10px;
+}
+ */
