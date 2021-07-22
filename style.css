@@ -425,7 +425,9 @@ border-radius: 10px;
 .contact .content{
   display: flex;
   justify-content: center;
-  /* align-items: center; */
+  /* kvnfknvfknvfkvn ***********************/
+  align-items: center; 
+  /* kvnfknvfknvfkvn ***********************/
   flex-wrap: wrap;
   flex-direction: column;
   margin-top: 20px;
@@ -501,7 +503,7 @@ border-radius: 10px;
 
 .contact-form{
   background: white;
-  width: 500px;
+  width: 400px;
   margin-top: 50px;
   padding: 50px;
   border-radius: 10px;
