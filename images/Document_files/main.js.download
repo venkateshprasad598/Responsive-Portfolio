@@ -1,0 +1,9 @@
+
+
+function birth(birthYear) {
+    // let ageInYears =  2021 - birthYear;
+    let myAge = prompt("what year did you born.. dear friend?")
+    // let ageInDays = ageInYears * 365;
+    // return ageInDays;
+}
+// console.log(birth(myAge))
