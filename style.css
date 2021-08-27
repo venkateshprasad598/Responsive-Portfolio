@@ -447,7 +447,7 @@ body {
 
 .contact .content .row .card {
   background: white;
-  width: 340px;
+  width: 280px;
   margin: 20px;
   padding: 25px;
   display: flex;
@@ -688,9 +688,11 @@ body {
     margin-top: 40px;
   }
 
-  .contact-form {
+  /* .row .card {
+    width: 50%;
+  } */
+  /* .contact-form {
     padding: 30px;
     width: 350px;
-    /* margin: 50px; */
-  }
+  } */
 }
