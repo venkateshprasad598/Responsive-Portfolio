@@ -55,6 +55,10 @@ section {
   padding: 100px 200px;
 }
 
+.projects {
+  padding: 100px 50px;
+}
+
 .home {
   position: relative;
   width: 100%;
@@ -326,6 +330,7 @@ body {
 
 .projects {
   background: white;
+  width: 100%;
 }
 /* 
 .projects .content {
