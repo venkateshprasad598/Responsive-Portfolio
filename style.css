@@ -217,6 +217,11 @@ body {
   background: purple;
 }
 
+.tech__desc {
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+}
+
 .skills .content {
   position: relative;
   width: 100%;
@@ -428,12 +433,9 @@ body {
 .project__button:hover {
   text-decoration: underline;
 }
-.contact .content {
+/* .contact .content {
   display: flex;
   justify-content: center;
-  /* kvnfknvfknvfkvn ***********************/
-  /* align-items: center;  */
-  /* kvnfknvfknvfkvn ********************** */
   flex-wrap: wrap;
   flex-direction: column;
   margin-top: 20px;
@@ -560,6 +562,20 @@ body {
 
 .contact-form .input-box .send-btn:hover {
   background: linear-gradient(to left, purple, blue);
+} */
+
+.contact__page {
+  display: flex;
+  flex-direction: column;
+}
+.contact__info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.contact__text {
+  font-size: 1rem;
+  margin-right: 1rem;
 }
 
 .footer {
@@ -568,10 +584,6 @@ body {
   text-align: center;
   padding: 2em;
 }
-
-/* .footer:hover{
-  background: linear-gradient(to left, purple, blue);
-} */
 
 .footer .footer-tile {
   font-size: 20px;
@@ -584,6 +596,9 @@ body {
 }
 
 @media (max-width: 1040px) {
+  .home .content h1 {
+    font-size: 2rem;
+  }
   header {
     padding: 12px 20px;
   }
